@@ -87,5 +87,10 @@ repository root), then `./cl gif --no-run` joins them.
   GPL-compatible licences ([chgame/LICENSE](chgame/LICENSE),
   [chgame/NOTICE](chgame/NOTICE)).
 
+## Acknowledgments
+
+Ported by Jadflat with the help of Claude (Anthropic). The port's
+changes are Copyright 2026 Jadflat, under the GNU GPL v3.
+
 *Space Taxi* (1984) is John F. Kutcher's. This port is unofficial and not
 endorsed by the original authors.
