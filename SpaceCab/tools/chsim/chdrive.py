@@ -1,4 +1,4 @@
-"""Drive BAS - in the simulator or on the board - with a script.
+"""Drive Space Cab - in the simulator or on the board - with a script.
 
     cl run <script> <outdir>                   (the simulator)
     python tools/chsim/chdrive.py --device [--port COMx] <script> <outdir>
@@ -8,7 +8,7 @@ common script commands (wait, step, tap, hold, snap, gif, rec, say, perf,
 cal ...). This project keeps a copy of those tools in chgame/ beside the
 sketch; $CHGAME_ROOT names another CHGame checkout instead.
 
-BAS has no game commands of its own.
+Space Cab has no game commands of its own.
 """
 import os
 import sys

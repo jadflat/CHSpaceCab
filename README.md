@@ -13,6 +13,20 @@ fares and drop them off, and watch your fuel.
 | LEFT / RIGHT | Steer |
 | START | Pause; hold 3 s for the CHGame menu |
 
+## Building
+
+Needs Python 3 (with Pillow and ziglang, for the simulator), arduino-cli and
+the CHGame board package, as any CHGame game (`chgame/tools/README.md`).
+`cl` (Git Bash) and `cl.cmd` (Windows) run the vendored CHGame tools on the
+sketch:
+
+| Command | What |
+|---|---|
+| `./cl build` | the release image |
+| `./cl upload` | onto the board |
+| `./cl run SpaceCab/tools/scripts/smoke.txt out/smoke` | a script in the simulator |
+| `./cl test` / `./cl check` | the host tests / everything that needs no board |
+
 ## Credits and licence
 
 - **The game:** [Space Cab](https://github.com/Press-Play-On-Tape/SpaceCab_Pokitto)
