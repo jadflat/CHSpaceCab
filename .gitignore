@@ -3,3 +3,6 @@ out/
 build/
 __pycache__/
 *.pyc
+
+# packed .CHG files: published as GitHub releases
+/dist/
