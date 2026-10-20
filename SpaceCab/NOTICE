@@ -16,3 +16,5 @@ Pokitto library the game uses.
 
 The Pokitto's recorded voices and theme tune are not included: CHGame's
 piezo plays short tones in their place.
+
+Built on CHGame, Copyright 2026 Kevin Bates (bateske), Apache-2.0: the framework is vendored in chgame/ (see chgame/NOTICE and chgame/LICENSE).

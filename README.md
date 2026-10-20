@@ -94,3 +94,5 @@ changes are Copyright 2026 Jadflat, under the GNU GPL v3.
 
 *Space Taxi* (1984) is John F. Kutcher's. This port is unofficial and not
 endorsed by the original authors.
+
+Built on CHGame, Copyright 2026 Kevin Bates (bateske), Apache-2.0: the framework is vendored in chgame/ (see chgame/NOTICE and chgame/LICENSE).
